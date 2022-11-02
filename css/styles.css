@@ -6,7 +6,7 @@
 }
 /* Borde */
 .borde {
-    border: 2px solid black
+    border: 1px solid #ccc;
 }
 /*Texto*/
 .titulo{
@@ -14,7 +14,30 @@
     height: 50px;
     background: black
 }
-/* Color Gris */
+/* Color Gris*/
+.color-gris{
+    background: #aaa;
+}
+/* Color Rojo */
+.color-rojo{
+    background: red;
+}
+/* Color Verde */
+.color-verde{
+    background: green;
+}
+/* Color Azul */
+.color-azul{
+    background: blue;
+}
+/* Color Gris Oscuro */
+.color-gris-oscuro{
+    background-color: #777;
+}
+/* Color gris Claro */
+.color-gris-claro{
+    background: #aaa;
+}
 /* Contenedor */
 
 .contenedor{
@@ -38,13 +61,13 @@ nav{
     width: 65%;
     height: 100%;
     float: left;
-    background: orange
+    background: #ef8814;
 }
 .ingreso{
     width: 15%;
     height: 100%;
     float: left;
-    background: gray;
+    background-color: black;
 
 }
 /* Encabezado */
@@ -62,6 +85,7 @@ section{
     width: 33.33%;
     height: 100%;
     float: left;
+    
 }
 /* Nosotros */
 .nos-fila{
@@ -96,5 +120,5 @@ section{
 footer{
     width: 100%;
     height: 50px;
-    background: gray;
+    background: black;
 }
